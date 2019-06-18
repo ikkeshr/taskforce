@@ -1,0 +1,205 @@
+/* The Modal (background) */
+.bidOntask {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.reportTask-modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.reportComment-modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.deleteTask-modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.rateTaskTaker-modal{
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.rateTaskGiver-modal{
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 35%;
+    border-radius: 5px;
+}
+
+.modal-content img{
+  margin-left: 29%;
+}
+
+.modal-content input{
+  font-size: 16px;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+.modal-content textarea{
+  font-size: 15px;
+  width: 100%;
+  padding: 10px;
+  font-family: 'Roboto', sans-serif;
+  height: 70px;
+  resize: none;
+  margin-bottom: 0px;
+}
+
+.modal-content button{
+  padding: 15px;
+  color: white;
+  font-size: 16px;
+  background: #005ab4;
+  border: none;
+  min-width: 140px;
+  margin-left: 36%;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+
+.modal-content button:hover{
+  color: white;
+  cursor: pointer;
+  background-color: #2389cd;
+}
+
+
+
+.modal-content h1{
+  color: #333;
+  font-weight: bold;
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.modal-content h2{
+  color: #333;
+  font-weight: bold;
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.modal-content h3{
+  color: #333;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.modal-content p button{
+  padding: 8px;
+  color: white;
+  font-size: 14px;
+  background: #005ab4;
+  border: none;
+  min-width: 80px;
+  margin-left:0%;
+  margin-top: 0px;
+  border-radius: 0px;
+}
+
+
+#confirm-yes:hover{
+  background-color: #b20000;
+}
+
+.modal-content p{
+  text-align: center;
+  color: #005ab4;
+  font-weight: bold;
+}
+
+.modal-content span{
+  font-size: 14px;
+  font-family: Verdana, sans-serif;
+  color: #b20000;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.rating-select{
+  text-align: center;
+  margin-top: 30px;
+}
+
+.rating-select button{
+  padding: 8px;
+  color: white;
+  font-size: 14px;
+  background: #005ab4;
+  border: none;
+  min-width: 80px;
+  margin-left:0%;
+  margin-top: 30px;
+  border-radius: 0px;
+}

@@ -1,0 +1,43 @@
+body{
+  background-color: #005ab4;
+  font-family: 'Roboto', sans-serif;
+}
+
+div.about{
+  padding: 20px;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.about i{
+  font-size: 14px;
+}
+
+
+#biddings {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#biddings td, #biddings th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#biddings tr:nth-child(even){background-color: #f2f2f2;}
+
+#biddings tr:hover {background-color: #ddd;}
+
+#biddings th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #221F1F;
+  color: white;
+}
+
+#biddings form{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}

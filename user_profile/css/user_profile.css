@@ -1,0 +1,94 @@
+.userBox{
+  float: left;
+  width: 22%;
+  margin-left: 5%;
+  margin-right: 4%;
+}
+.userInfoBox{
+  width: 100%;
+  padding: 50px;
+  background-color: #e5e5e5;
+  border: solid 0.5px #7e7e7e;
+  border-radius: 2px;
+  text-align: center;
+}
+.userDescBox{
+  margin-top: 25%;
+  width: 100%;
+  padding: 50px;
+  background-color: #e5e5e5;
+  border: solid 0.5px #7e7e7e;
+  border-radius: 2px;
+}
+.userInfoBox img{
+  border-radius: 50%;
+  width: 70%;
+  height: 120px;
+}
+
+.userPanel{
+  margin-top: 8%;
+  margin-left: 33%;
+  width: 60%;
+  padding: 33px;
+  background-color: #e5e5e5;
+  border: solid 0.5px #7e7e7e;
+  border-radius: 2px;
+  /*margin-bottom: 200px;*/
+}
+button.switch{
+  color: white;
+  background-color: #005ab4;
+  border: none;
+  margin-right: 20px;
+  padding: 15px;
+  border-radius: 15px;
+}
+button.switch:hover{
+  background-color: gray;
+}
+.customHr{
+  border: 0;
+  height: 1px;
+  background: #333;
+  background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+.lightText{
+  color: gray;
+  font-size: 14px;
+}
+.reviewImg{
+  margin-right: 10px;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+}
+
+.wrap{
+  /*width: 1000px;*/
+  margin: auto;
+  margin-top: 8%;
+}
+
+.card{
+  width: 200px;
+  height: 250px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.6);
+  transition: 0.4s;
+  text-align: center;
+  font-size: 16px;
+  font-family: sans-serif;
+  display: inline-block;
+  margin: 20px;
+  background-color: white;
+}
+.card img{
+  width: 100%;
+}
+.card:hover{
+  cursor: pointer;
+  -webkit-box-shadow: 0px 1px 35px 0px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 1px 35px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 1px 35px 0px rgba(0, 0, 0, 0.5);
+}

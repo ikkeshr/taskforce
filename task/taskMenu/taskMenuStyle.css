@@ -1,0 +1,83 @@
+.menu-panel{
+  margin-left:  0px;
+  width: 13%;
+  float: left;
+}
+
+.menu-box{
+  text-align: center;
+  background-color: #e5e5e5;
+  color: black;
+  border: none;
+  overflow: hidden;
+}
+
+.converter-box{
+  padding: 5px;
+  background-color: white;
+}
+
+.converter-box input{
+  width: 70%;
+  font-size: 16px;
+}
+
+.converter-box select{
+  font-size: 16px;
+}
+
+.menu-box button{
+  width: 100%;
+  background-color: white;
+  color: black;
+  padding:16px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  border: none;
+  font-size: 15px;
+  border-bottom: solid 0.5px #999;
+}
+
+.menu-box button:hover{
+  color: white;
+  cursor: pointer;
+  background-color: #2389cd;
+}
+
+#report{
+  border-bottom: none;
+}
+
+#report:hover{
+  background-color:#b20000;
+}
+
+.menu-box button.active{
+  color: white;
+  cursor: pointer;
+  background-color: #2389cd;
+}
+
+
+.panel{
+  margin-left: 16%;
+  margin-top: 8%;
+  padding: 30px;
+  background-color: white;
+  width: 800px;
+  border: solid 0.3px #e5e5e5;
+}
+
+.panel hr{
+  margin: 0 -30px 20px;
+}
+
+.panel h1{
+  color: #333;
+  font-weight: bold;
+}
+
+.menu-box form{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}

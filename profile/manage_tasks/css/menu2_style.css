@@ -1,0 +1,62 @@
+.menu-box{
+  text-align: center;
+  background-color: #e5e5e5;
+  color: black;
+  margin-left: 0px;
+  margin-top: 0px;
+  width: 175px;
+  float: left;
+  border: none;
+}
+
+.menu-box button{
+  width: 100%;
+  background-color: white;
+  color: black;
+  padding:16px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  border: none;
+  font-size: 15px;
+  border-bottom: solid 0.5px #999;
+}
+
+.menu-box button:hover{
+  color: white;
+  cursor: pointer;
+  background-color: #2389cd;
+}
+
+#logout_button{
+  border-bottom: none;
+}
+
+#logout_button:hover{
+  background-color:#b20000;
+}
+
+.menu-box button.active{
+  color: white;
+  cursor: pointer;
+  background-color: #2389cd;
+}
+
+
+.panel{
+  margin-left: 20%;
+  margin-top: 8%;
+  padding: 30px;
+  background-color: white;
+  width: 800px;
+  border: solid 0.3px #e5e5e5;
+  margin-bottom: 10%;
+}
+
+.panel hr{
+  margin: 0 -30px 20px;
+}
+
+.panel h1{
+  color: #333;
+  font-weight: bold;
+}

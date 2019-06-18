@@ -1,0 +1,55 @@
+.moderate {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+
+
+.moderate td, .moderate th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.moderate tr:nth-child(even){background-color:#f2f2f2;}
+
+.moderate tr:hover {background-color: #ddd;}
+
+.moderate th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #323232;
+  color: white;
+}
+
+.moderate button{
+  background:none!important;
+     border:none;
+     padding:0!important;
+    /*optional*/
+    font-family:arial,sans-serif; /*input has OS specific font-family*/
+     color:#069;
+     text-decoration:underline;
+     cursor:pointer;
+}
+
+.moderate-buttons{
+  margin-top: 50px;
+
+  text-align: center;
+}
+
+.moderate-buttons input[type='submit'], [type='reset']{
+  margin-left: 20px;
+  padding: 5px;
+  min-width: 60px;
+  color: white;
+  background: #005ab4;
+  border: none;
+}
+
+.moderate-buttons input[type='submit']:hover, [type='reset']:hover{
+  cursor: pointer;
+  background: #2389cd;
+}
